@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna Gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        h3 {
+            font-family: 'Zen Loop', cursive;
+            font-size: 17px;
+            color: #bfad14;
+        }
+
+        .tittle {
+            margin-left: 11px;
+        }
+
+        .basicimg {
+            height: 100px;
+            border-radius: 23px;
+            margin-left: 2px;
+        }
+
+        nav ul {
+            padding-right: 240px;
+            list-style: none;
+            margin-left: 26px;
+        }
+
+        nav li a {
+            font-family: 'Zen Loop', cursive;
+            float: right;
+            padding-right: 40px;
+            text-decoration: none;
+            color: #fffff9;
+            font-weight: bolder;
+            margin-top: 23px;
+        }
+
+        .input {
+            margin: 5px;
+            width: 200px;
+            margin-left: 87px;
+            font-family: 'Zen Loop', cursive;
+        }
+
+        #marketing {
+            font-size: 20px;
+            font-family: 'Zen Loop', cursive;
+            padding-left: 54px;
+            color: #d9d9d9;
+        }
+
+        .form {
+            border: 2px solid rgb(70 57 25);
+            margin-right: 660px;
+            margin-left: 215px;
+            padding-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .f1 {
+            margin-bottom: 5px;
+        }
+
+        body {
+            background-image: url(best.jpg);
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com/" target="_blank">Contact us</a>
+                </li>
+                <li><a href="" class="about">About us</a>
+                </li>
+                <li><a href="https://www.calculator.net/calorie-calculator.html" target="_blank">Fitness calculator</a>
+                </li>
+                <li><a href="">Home</a>
+                </li>
+            </ul>
+            <h3>
+                <div class="tittle">
+                    Apna Gym
+                </div>
+                <img class="basicimg" src="download.jpg" alt="">
+            </h3>
+        </nav>
+    </div>
+    <div class="form">
+        <h1 id="marketing">
+            Join The Best Gym of Jaipur
+        </h1>
+        <form action="backend.php" class="f1">
+            <input type="text" name="Enter your name" id="username" placeholder="Enter Your Name" class="input">
+            <br>
+            <input type="number" name="Enter Your Age" id="age" class="input" placeholder="Enter Your Age">
+            <br>
+            <input type="text" name="Genger" id="Genger" class="input" placeholder="Enter Your Gender">
+            <br>
+            <input type="text" name="Enter your address" id="address" placeholder="Enter Your Address" class="input">
+            <br>
+            <input type="submit" value="Submit" class="input">
+        </form>
+    </div>
+</body>
+
+</html>
